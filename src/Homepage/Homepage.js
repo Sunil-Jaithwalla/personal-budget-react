@@ -173,23 +173,28 @@ function HomePage() {
             </div>
           </section>
 
-          <section>
-          <div className="chart">
-            <h2>Chart</h2>
-            <p>
-              <canvas id="myChart" ></canvas>
-            </p>
-          </div>
-        </section>
-
-        <section>
-          <div className="charts">
-            <h2>D3js Chart</h2>
-            <p>
-            <svg id="d3-chart" ref={svgRef} style={{ height: 400, width: 550 }}></svg>
-            </p>
-          </div>
-        </section>
+          <section class="indent-1">
+            <section>
+              <div className="chart">
+                <h2>Chart</h2>
+                <p>
+                  <canvas id="myChart"></canvas>
+                </p>
+              </div>
+            </section>
+            <section>
+              <div className="charts">
+                <h2>D3js Chart</h2>
+                <p>
+                  <svg
+                    id="d3-chart"
+                    ref={svgRef}
+                    style={{ height: 400, width: 550 }}
+                  ></svg>
+                </p>
+              </div>
+            </section>
+          </section>
         </article>
       </div>
     </main>
