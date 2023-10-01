@@ -2,9 +2,9 @@ import React from 'react';
 
 function LoginPage() {
   return (
-    <h1>
-      LoginPage
-    </h1>
+    <h3>
+      Welcome to LoginPage....!
+    </h3>
   );
 }
 

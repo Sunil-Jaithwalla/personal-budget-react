@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import Menu from './Menu/menu';
@@ -11,24 +11,6 @@ import LoginPage from './LoginPage/Loginpage';
 
 function App() {
   return (
-    // <Router>
-
-    //  <div className='mainContainer'>
-    //   <Switch>
-    //     <Route path="/about">
-    //       <AboutPage/>
-    //     </Route>
-    //     <Route path="/login">
-    //       <LoginPage/>
-    //     </Route>
-    //     <Route path="/">
-    //       <Homepage/>
-    //     </Route>
-    //   </Switch>
-    //  </div>
-    //  <Footer></Footer>
-    // </Router>
-
     <Router>
       <div className="mainContainer">
         <Menu/>
