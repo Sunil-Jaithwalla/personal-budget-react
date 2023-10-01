@@ -108,23 +108,6 @@ function HomePage() {
         .attr("dy", "0.35em")
         .style("text-anchor", "middle")
         .text((d) => d.data.title);
-
-    // const polyline = svg
-    //     .selectAll("polyline")
-    //     .data(arcs)
-    //     .enter()
-    //     .append("polyline")
-    //     .attr("points", (d) => {
-    //         const posA = arcGenerator.centroid(d);
-    //         const posB = outerArc.centroid(d);
-    //         const posC = outerArc.centroid(d);
-    //         const midAngle = d.startAngle + (d.endAngle - d.startAngle) / 2;
-    //         posC[0] = radius * 0.95 * (midAngle < Math.PI ? 1 : -1);
-    //         return [posA, posB, posC];
-    //     })
-    //     .style("fill", "none")
-    //     .style("stroke", "black")
-    //     .style("stroke-width", "1px");
 }
   
   useEffect(() => {
